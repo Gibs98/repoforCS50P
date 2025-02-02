@@ -1,5 +1,6 @@
 #playback file 
-prompt2 = input("Type a message.\n ").lower()
+Hello = input("Type a message ")
 
-# ouput string as lowercase
-print(prompt2," ... ")
+new_Hello = Hello.replace(" ", "...")
+print(new_Hello)
+# output the input and add dots
